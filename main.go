@@ -10,6 +10,7 @@ func main() {
 
 	if err := store.Init(); err != nil
 
+	// test
 	server := NewApiServer(":3000", store)
 	server.Run()
 }
